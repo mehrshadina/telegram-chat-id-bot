@@ -1,6 +1,6 @@
 import requests
 
-TOKEN = "6378779878:AAFDYJYA0rZq4sLwvQgzSo-FgE7AJwFQDZg"
+TOKEN = 'BOT_TOKEN'
 URL = "https://api.telegram.org/bot%s/"%TOKEN
 
 proxies = {
