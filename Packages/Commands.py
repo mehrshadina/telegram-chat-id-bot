@@ -1,7 +1,7 @@
 from Packages.Connection import send_message
 
 def start_new_user(chat_id):
-    text = f"Hi my new friend✋\!\!\nYour ChatId is `{chat_id}`~`"
+    text = f"Hi my new friend✋\!\!\nYour ChatId is `{chat_id}`"
     send_message(chat_id, text, parse_mode=True)
 
 def start(chat_id):
